@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 /**
  * @version V1.0
- * @Title:
+ * @Title:mvn clean test
  * @ClassName: SwaggerStaticDocTest.java
  * @Description:
  * @Copyright 2016-2018  - Powered By 研发中心
@@ -26,11 +26,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class SwaggerStaticDocTest {
 
     private String snippetDir = "target/generated-snippets";
-//    private String outputDir = "/Users/zhou/Desktop";
-    private String outputDir  = "target/asciidoc";
+    //    private String outputDir = "/Users/zhou/Desktop";
+    private String outputDir = "target/asciidoc";
 
 
-    private String jsonDir = "json";
+    private String jsonDir = "/Users/zhou/Desktop";
 
     @Test
     public void Test() throws Exception {
